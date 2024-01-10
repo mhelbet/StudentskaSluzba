@@ -1,5 +1,6 @@
 # StudentskaSluzba
 
+<<<<<<< HEAD
 #Instalacija
 
 Kreiranje virtuelnog okruženja
@@ -17,3 +18,6 @@ python -m pip install mysql-connector-python
 
 Pokretanje
 flask run
+=======
+
+>>>>>>> 7d5e174d1ce0839fb76ec5a8064229c0fa138382
