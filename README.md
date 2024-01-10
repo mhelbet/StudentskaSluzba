@@ -16,6 +16,7 @@ python -m pip install flask
 python -m pip install mysql-connector-python
 
 Pokretanje
+
 flask run
 =======
 
