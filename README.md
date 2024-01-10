@@ -1,7 +1,6 @@
-# f01
-Python web API primjer
+# StudentskaSluzba
 
-## Instalacija
+Instalacija
 
 Kreiranje virtuelnog okruženja
 
@@ -15,14 +14,12 @@ Za ostale OS (Linux, Mac, GitHub Codespaces):
 
 	source .venv/bin/activate
 
-Instalacija biblioteka
+##Instalacija biblioteka
 
     python -m pip install flask
     python -m pip install mysql-connector-python
 
-## Pokretanje
-
-Kucati
+Pokretanje
 
 flask run
 
