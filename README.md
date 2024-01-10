@@ -1,8 +1,9 @@
 # StudentskaSluzba
 
-Instalacija
+##Instalacija
 
-Kreiranje virtuelnog okruženja
+
+##Kreiranje virtuelnog okruženja
 
     python -m venv .venv
 
@@ -19,7 +20,7 @@ Za ostale OS (Linux, Mac, GitHub Codespaces):
     python -m pip install flask
     python -m pip install mysql-connector-python
 
-Pokretanje
+##Pokretanje
 
 flask run
 
