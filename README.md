@@ -1,6 +1,6 @@
 # StudentskaSluzba
 
-#Instalacija
+Instalacija
 
 Kreiranje virtuelnog okruženja
 python -m venv .venv
