@@ -1,7 +1,8 @@
 # f01
 Python web API primjer
 
-## Instalacija
+<<<<<<< HEAD
+#Instalacija
 
 Kreiranje virtuelnog okruženja
 
@@ -20,6 +21,8 @@ Instalacija biblioteka
     python -m pip install flask
     python -m pip install mysql-connector-python
 
-## Pokretanje
-
+Pokretanje
 flask run
+=======
+
+>>>>>>> 7d5e174d1ce0839fb76ec5a8064229c0fa138382
