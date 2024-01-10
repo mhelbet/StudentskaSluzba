@@ -56,8 +56,8 @@ def get_zadatak2_html():
     studijski_program = []
     with cnxpool.get_connection() as cnx:
         with cnx.cursor() as z_cur:
-            z_cur.execute("SELECT sp.ProgramID, sp.NazivPrograma,sp.Trajanje,sp.VrstaPrograma,p.predmet_id AS PredmetID,p.opis,p.naziv,p.silabus,p.ects_bodovi"+
-                          "FROM studijski_program spJOIN predmeti p ON sp.ProgramID = p.predmet_id;")
+            z_cur.execute("SELECT sp.ProgramID, sp.NazivPrograma,sp.Trajanje,sp.VrstaPrograma,p.predmet_id AS PredmetID,p.opis,p.naziv,p.silabus,p.ects_bodovi " +
+                          "FROM studijski_program sp JOIN predmeti p ON sp.ProgramID = p.predmet_id")
 
             studijski_program = z_cur.fetchall()
 
